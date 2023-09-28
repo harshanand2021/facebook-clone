@@ -30,7 +30,7 @@ body{
 .login-container{
     border: rgb(255,255,255).5rem solid;
     background-color: white;
-    height: 23rem;
+    height: 27rem;
     width: 27rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -64,9 +64,49 @@ input::placeholder{
     color: white;
     text-decoration: none;
 }
-.forget a{
+.forgotten-password a{
     color: #1877F2;
     align-items: center;
+    justify-content: center;
     display: flex;
     font-size: 1.2rem;
+    margin-left: auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0F2F5;
+    background-color: #42B724;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-left: 20%;
+}
+.page a{
+    font-size: 1.2rem;
+    color: black;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.page{
+    font-size: 1rem;
+    padding-left: 10%;
+}
+.login-details{
+    border-bottom: .1rem rgb(0, 0, 0);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    color: black;
 }
