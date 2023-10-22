@@ -1,5 +1,6 @@
 import React from "react";
 import "./LoginPage.css";
+import { Link } from 'react-router-dom';
 
 function LoginPage() {
   return (
@@ -18,7 +19,7 @@ function LoginPage() {
           <br />
           <br />
           <button className="btn">
-            Login
+            <link to="./HeaderArea">Login</link>
           </button>
           <div className="forgotten-password">
             <a href="forget">Forgotten Password</a>

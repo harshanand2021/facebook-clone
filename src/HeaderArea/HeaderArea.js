@@ -7,3 +7,4 @@ function HeaderArea(){
         </div>
     )
 }
+export default HeaderArea;
